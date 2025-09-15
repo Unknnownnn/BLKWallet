@@ -2,11 +2,8 @@
     font-size: 3rem;
     font-weight: bold;
     text-align: center;
-    background: linear-gradient(270deg, #0666b9, #52dee6, #21f51a, #0666b9);
-    background-size: 200% 200%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: gradientFlow 5s linear infinite;
+    color: #14f214;
+    text-shadow: 0 0 18px rgba(202, 162, 91, 0.28);
     transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out;
   }
   
@@ -15,7 +12,7 @@
   }
   
   @keyframes gradientFlow {
-    0% { background-position: -200% 0; }
-    100% { background-position: 200% 0; }
+    0% { opacity: 0.9; }
+    100% { opacity: 1; }
   }
   

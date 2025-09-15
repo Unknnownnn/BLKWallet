@@ -3,23 +3,12 @@ import './Hero.css';
 
 const Hero = ({ onConnectWallet, isConnected }) => {
   const benefits = [
-    // {
-    //   title: "Exclusive Airdrop",
-    //   description: "All Priority Pass Holders get access to a good SOUL airdrop"
-    // },
-    // {
-    //   title: "Early Access",
-    //   description: "Be amongst the first to claim your SOUL ID and get priority access to solid perks"
-    // },
-    // {
-    //   title: "Mint your Priority Pass",
-    //   description: "Enjoy perks such as exclusive WL spots and more from our partners"
-    // }
+
   ];
 
   return (
     <div className="hero-container">
-        <h1 className="hero-title animated-gradient">Prayog Smart Scoring Systems</h1>
+        <h1 className="hero-title animated-gradient">Block Creds</h1>
         {!isConnected && (
           <button className="connect-button" onClick={onConnectWallet}>
             Connect Wallet
